@@ -1,11 +1,12 @@
-package net.robertocrespo.microservices.users.repository.impl;
+package com.proyecto.arte.users.repository.impl;
 
-import net.robertocrespo.microservices.users.repository.UserRepository;
-import net.robertocrespo.microservices.users.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.Assert;
+
+import com.proyecto.arte.users.model.User;
+import com.proyecto.arte.users.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

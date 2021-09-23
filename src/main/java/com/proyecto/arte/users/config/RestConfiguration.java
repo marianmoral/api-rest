@@ -1,4 +1,4 @@
-package net.robertocrespo.microservices.users.config;
+package com.proyecto.arte.users.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

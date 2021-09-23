@@ -1,4 +1,4 @@
-package net.robertocrespo.microservices.users.exception;
+package com.proyecto.arte.users.exception;
 
 import org.springframework.core.NestedRuntimeException;
 

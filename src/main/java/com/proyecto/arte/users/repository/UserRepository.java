@@ -1,9 +1,9 @@
-package net.robertocrespo.microservices.users.repository;
-
-import net.robertocrespo.microservices.users.model.User;
+package com.proyecto.arte.users.repository;
 
 import java.util.List;
 import java.util.Optional;
+
+import com.proyecto.arte.users.model.User;
 
 /**
  * Crud repository interface

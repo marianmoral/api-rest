@@ -1,7 +1,8 @@
-package net.robertocrespo.microservices.users.service;
+package com.proyecto.arte.users.service;
 
-import net.robertocrespo.microservices.users.model.User;
 import java.util.List;
+
+import com.proyecto.arte.users.model.User;
 
 
 /**

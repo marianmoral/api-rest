@@ -1,13 +1,14 @@
-package net.robertocrespo.microservices.users.controller;
+package com.proyecto.arte.users.controller;
 
-import net.robertocrespo.microservices.users.exception.UserNotFoundException;
-import net.robertocrespo.microservices.users.model.User;
-import net.robertocrespo.microservices.users.service.UserService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.proyecto.arte.users.exception.UserNotFoundException;
+import com.proyecto.arte.users.model.User;
+import com.proyecto.arte.users.service.UserService;
 
 import java.util.List;
 import javax.validation.Valid;

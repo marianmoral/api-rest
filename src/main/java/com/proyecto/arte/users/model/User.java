@@ -1,5 +1,5 @@
 
-package net.robertocrespo.microservices.users.model;
+package com.proyecto.arte.users.model;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import org.springframework.data.annotation.Id;

@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>net.robertocrespo.microservices</groupId>
+	<groupId>com.proyecto.arte</groupId>
 	<artifactId>api-rest</artifactId>
 	<version>1.0.0-RELEASE</version>
 	<packaging>jar</packaging>
@@ -25,9 +25,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:https://github.com/rcrespop/microservice-users.git</connection>
-		<developerConnection>scm:git:https://${username}:${password}@github.com/rcrespop/microservice-users.git</developerConnection>
-		<url>scm:git:https://rcrespop@github.com/rcrespop/microservice-users.git</url>
+		<connection>scm:git:https://github.com/marianmoral/artefuckpsyke.git</connection>
+		<developerConnection>scm:git:https://${username}:${password}@github.com/marianmoral/artefuckpsyke.git</developerConnection>
+		<url>scm:git:https://marianmoral@github.com/marianmoral/artefuckpsyke.git</url>
 		<tag>HEAD</tag>
 	</scm>
 	
