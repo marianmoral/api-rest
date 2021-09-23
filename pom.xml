@@ -25,9 +25,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:https://github.com/marianmoral/artefuckpsyke.git</connection>
-		<developerConnection>scm:git:https://${username}:${password}@github.com/marianmoral/artefuckpsyke.git</developerConnection>
-		<url>scm:git:https://marianmoral@github.com/marianmoral/artefuckpsyke.git</url>
+		<connection>scm:git:https://github.com/marianmoral/api-rest.git</connection>
+		<developerConnection>scm:git:https://${username}:${password}@github.com/marianmoral/api-rest.git</developerConnection>
+		<url>scm:git:https://marianmoral@github.com/marianmoral/api-rest.git</url>
 		<tag>HEAD</tag>
 	</scm>
 	
