@@ -1,12 +1,11 @@
-package com.proyecto.arte.users.repository.impl;
+package com.proyecto.arte.repository.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.stereotype.Repository;
-import org.springframework.util.Assert;
 
-import com.proyecto.arte.users.model.User;
-import com.proyecto.arte.users.repository.UserRepository;
+import com.proyecto.arte.model.User;
+import com.proyecto.arte.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;
@@ -24,7 +23,7 @@ public class UserRepositoryImpl implements UserRepository{
 
     @Autowired
     public UserRepositoryImpl(MongoOperations mongoOperations) {
-        Assert.notNull(mongoOperations);
+        
         this.mongoOperations = mongoOperations;
     }
     

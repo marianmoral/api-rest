@@ -1,8 +1,8 @@
-package com.proyecto.arte.users.service;
+package com.proyecto.arte.service;
 
 import java.util.List;
 
-import com.proyecto.arte.users.model.User;
+import com.proyecto.arte.model.User;
 
 
 /**

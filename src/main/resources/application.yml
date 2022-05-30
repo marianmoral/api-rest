@@ -2,11 +2,13 @@
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      uri: mongodb://localhost/test
+      uri: mongodb+srv://admin:BsvztR7c5Xj9RWKW@cluster0.3cxh2.mongodb.net/artefck?retryWrites=true&w=majority
   application:
     name: user-service  # Service registers under this name
+  servlet:
+    multiplart:
+      max-file-size: 4MB   
+      max-request-size: 4MB
 
 endpoints:
   health:

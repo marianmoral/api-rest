@@ -1,13 +1,11 @@
 
-package com.proyecto.arte.users;
+package com.proyecto.arte;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * @author Roberto Crespo
+ * @author mmoral
  * @since 1.0.0
  */
 

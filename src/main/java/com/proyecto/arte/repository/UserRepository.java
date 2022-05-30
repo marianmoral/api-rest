@@ -1,13 +1,13 @@
-package com.proyecto.arte.users.repository;
+package com.proyecto.arte.repository;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.proyecto.arte.users.model.User;
+import com.proyecto.arte.model.User;
 
 /**
  * Crud repository interface
- * @author Roberto Crespo
+ * @author mmoral
  * @since 1.0.0
  */
 public interface UserRepository{

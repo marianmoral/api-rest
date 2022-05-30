@@ -1,5 +1,5 @@
 
-package com.proyecto.arte.users.model;
+package com.proyecto.arte.model;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import org.springframework.data.annotation.Id;
@@ -21,7 +21,7 @@ public class User implements Serializable{
 	private static final long serialVersionUID = -7788619177798333712L;
 
     @Id
-    @NotNull  
+    
     private String userId;
     @NotNull    
     private String name;

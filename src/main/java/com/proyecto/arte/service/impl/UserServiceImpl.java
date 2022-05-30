@@ -1,4 +1,4 @@
-package com.proyecto.arte.users.service.impl;
+package com.proyecto.arte.service.impl;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.proyecto.arte.users.exception.UserNotFoundException;
-import com.proyecto.arte.users.model.User;
-import com.proyecto.arte.users.repository.UserRepository;
-import com.proyecto.arte.users.service.UserService;
+import com.proyecto.arte.exception.UserNotFoundException;
+import com.proyecto.arte.model.User;
+import com.proyecto.arte.repository.UserRepository;
+import com.proyecto.arte.service.UserService;
 
 import java.util.List;
 import java.util.Optional;
